@@ -1,0 +1,337 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
+a:focus{
+  outline: none;
+}
+
+body{
+  background-color: #f2f2f2;
+}
+
+.slick-slider > i.slick-arrow{
+  font-size: 14px;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: inherit;
+}
+
+.slick-slider > i[class*='right']{
+  right:-25px;
+}
+
+.carousel > h3{
+  text-align: center;
+}
+
+.carousel > span{
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel > h3::before{
+  margin: 0 auto 12px;
+}
+
+.carousel .country{
+  color:inherit;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.carousel .destination{
+  font-size: 12px;
+  font-weight: normal;
+  color:#666;
+}
+
+.carousel .dot{
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #7c7c7c;
+  border: solid 1px #979797;
+}
+
+.countries-cards-4 .image-block{
+  height: 220px;
+}
+
+.carousel .card-description .description{
+  margin: 12px 15px 15px 0px;
+  color:#777;
+}
+
+.carousel .read-more{
+  color: #222222;
+}
+
+.carousel .card{
+  position: relative;
+}
+
+.carousel .travel-qoute{
+  position: absolute;
+  top: 12px;
+  left: 22px;
+  color: inherit;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.carousel .trip-buttons{
+  float: right;
+}
+
+.trip-buttons > button{
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 5px 10px;
+  color:#fff;
+}
+
+.trip-buttons .travel{
+  background-color: #464646;
+  border: solid 1px #979797;
+}
+
+.trip-buttons .tips{
+  background-color: #949494;
+  border: solid 1px #979797;
+}
+
+.trip-buttons .inspiration{
+  background-color: #5d5d5d;
+  border: solid 1px #979797;
+  padding: 5px 10px;
+}
+
+.trip-buttons .destinations{
+  background-color: #dadada;
+  border: solid 1px #979797;
+  padding: 5px 10px;  
+  color:#000;
+}
+
+.carousel .trip-buttons + p.description{
+  margin: 25px 15px 15px 0px;
+}
+
+.full-image .card-description{
+  background-color: transparent;
+}
+
+div.full-image .image-block{
+  height: 360px;
+}
+
+div.full-image .country{
+  color:inherit;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.countries-cards .image-block{
+  height: 250px;
+}
+
+.inspired{
+  color:#000;
+  margin: 115px auto;
+}
+
+.inspired h3{
+  font-size: 28px;
+  font-weight: bold;
+  color:inherit;
+  margin-bottom: 5px;
+}
+
+.inspired h3::before{
+  content: "";
+  display: block;
+  width: 100px;
+  margin-bottom: 12px;
+  border: solid 2px #979797;
+}
+
+.inspired > span{
+  font-size: 14px;
+  font-weight: normal;
+  color:#777
+}
+
+.see-more{
+  font-size: 12px;
+  font-weight: bold;
+  color: #505050;
+  cursor: pointer;
+  display: block;
+  text-align:right;
+}
+
+.see-more i{
+  font-size: 10px;
+}
+
+.cards-block{
+  margin-top: 15px;
+}
+
+.card{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.image-block{
+  height: 185px;
+  background-color: #d9d9d9;
+}
+
+.card-description{
+  background-color: #fff;
+  padding: 10px 20px 15px;
+}
+
+.card-description .description-title{
+  color:inherit;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.card-description .card-date{
+  font-size: 12px;
+  font-weight: normal;
+  color:#777;
+}
+
+.card-description .description{
+  color:inherit;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px 15px 13px 0;
+}
+
+.read-more{
+  color:#505050;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: right;
+  display: block;
+}
+
+.read-more i{
+  font-size: 10px;
+}
+
+.no-bg .card-description{
+background-color: transparent;
+}
+
+/*starting arabic style*/
+.GLP-rtl .slick-slider > i.slick-arrow{
+  left:-5px;
+}
+
+.GLP-rtl .slick-slider > i[class*='right'] {
+  right: -20px;
+}
+
+.GLP-rtl .carousel .travel-qoute{
+  right: 22px;
+  left: initial;
+}
+
+.GLP-rtl .card-description .description{
+  margin: 12px 0px 15px 15px;
+}
+
+.GLP-rtl .trip-buttons + p.description {
+  margin: 25px 0px 15px 15px;
+}
+
+.GLP-rtl .read-more,
+.GLP-rtl .see-more{
+  text-align: left;
+}
+
+.GLP-rtl .carousel .trip-buttons {
+  float: left;
+}
+
+
+@media screen and (max-width: 992px){
+  .trip-buttons > button{
+    font-size: 0.5em;
+  }
+  .trip-buttons .inspiration,
+  .trip-buttons .destinations{
+    padding: 0.5em 1em;
+  }
+}
